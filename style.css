@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: Tahoma, Arial, serif;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+#main{
+    background-color: white;
+    margin: 0 auto;
+    width: 1140px;
+}
+
+#head{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+
+#head-link{
+    background-color: #f2f2f2;
+    width: 1120px;
+    height: 50px;
+    clear: both;
+    margin: 0 10px 10px 10px;
+}
+
+#head-link a:hover {
+    background-color: darkgrey;
+}
+
+#head-link a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#content{
+    width: 750px;
+    float: left;
+    margin: 10px 5px 10px 5px;
+}
+
+#content a{
+    display: block;
+    color: black;
+    padding: 1px 20px;
+    text-decoration: none
+}
+
+#content a:hover{
+    color: blue;
+}
+
+#right{
+    width: 340px;
+    float: left;
+    margin: 10px 10px 10px 5px;
+}
+
+#right a{
+    display: block;
+    color: black;
+    padding: 0px 20px;
+    text-decoration: none
+}
+
+#right a:hover {
+    color: blue;
+}
+
+#footer{
+    width: 1140px;
+    height: 100px;
+    clear: both;
+    margin: 0 auto;
+}
+
+.suggest {
+    width: 750px;
+    margin-top: 50px;
+}
+.suggest td {
+    border-bottom: 1px solid lightgray;
+}
+
+.paddingA {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.paddingImg{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.textOfImg {
+    width: 750px;
+    text-align: center;
+}
